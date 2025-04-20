@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b26bf4;
+}
+
+header {
+    background: #391659;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #94849d;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #6a0dad;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+
+.sidebar {
+    width: 25%;
+    background: #b997f7;
+    padding: 20px;
+}
+
+.content {
+    width: 75%;
+    background: white;
+    padding: 20px;
+}
+.content td h2{
+    color:white;
+}
+
+.content tr td{
+    color:white;
+    background-color: #461871ee;
+    border-radius: 8px;
+}
+
+footer {
+    background: #391659;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Form Kontak */
+
+#formWA {
+padding: 30px 25px;
+width: 100%;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+}
+
+#formWA label{
+
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: #333;
+}
+/* Form Kontak */
+
+#formWA {
+
+padding: 30px 25px;
+width: 100%;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+}
+
+#formWA label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: #333;
+}
+
+#formWA textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    }
+    
+    #FormWA input:focus,
+    #formWA textarea:focus {
+    border-color: #250366;
+    outline: none;
+    box-shadow: 0 0 4px rgba(37, 211, 102, 0.3);
+    }
+
+    #formWA button {
+        
+        background-color: #250366;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        
+        }
+        
+        #formWA button:hover {
+        background-color: #1ebe5d;
+        }
